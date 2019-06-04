@@ -4,9 +4,9 @@
     { "id": 2, "identifier": "indeed-eng", "data": { "id": 2} },
     { "id": 3, "identifier": "indeed-eng", "errors": [{"message": "Tenant doesn't exist"}] }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "users": [
+    { "id": 1, "data": {"id": 1, "name": "Saksham Aggarwal", "email": "saksham@indeed.com"} },
+    { "id": 2, "errors": [{"message": "User doesn't exist"}] }
   ],
   "profile": {
     "name": "typicode"
