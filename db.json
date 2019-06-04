@@ -8,7 +8,8 @@
     { "id": 1, "data": {"id": 1, "name": "Saksham Aggarwal", "email": "saksham@indeed.com"} },
     { "id": 2, "errors": [{"message": "User doesn't exist"}] }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "pluginsconfs": [
+    { "id": 1, "data": {"keyvalues": {"color": "red", "height": "300"} },"errors": [] },
+    { "id": 2, "data": {},"errors": [{"message": "A human-readable error message"}] },
+  ]
 }
