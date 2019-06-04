@@ -1,8 +1,8 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "tenants": [
+    { "id": 1, "identifier": "indeed", "data": { "id": 1} },
+    { "id": 2, "identifier": "indeed-eng", "data": { "id": 2} },
+    { "id": 3, "identifier": "indeed-eng", "errors": [{"message": "Tenant doesn't exist"}] }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
