@@ -1,6 +1,6 @@
 {
   "tenants": [
-    { "id": 1, "identifier": "indeed", "data": { "id": 1} },
+    { "id": 1, "identifier": "indeed", "data": [{ "id": 1}] },
     { "id": 2, "identifier": "indeed-eng", "data": { "id": 2} },
     { "id": 3, "identifier": "indeed-eng", "errors": [{"message": "Tenant doesn't exist"}] }
   ],
