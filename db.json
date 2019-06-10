@@ -6,7 +6,8 @@
   ],
   "users": [
     { "id": 1, "data": {"id": 1, "name": "Saksham Aggarwal", "email": "saksham@indeed.com"} },
-    { "id": 2, "errors": [{"message": "User doesn't exist"}] }
+    { "id": 2, "data": [{"id": 2, "name": "Saksham Aggarwal", "email": "saksham@indeed.com"}] },
+    { "id": 3, "errors": [{"message": "User doesn't exist"}] }
   ],
   "pluginsconfs": [
     { "id": 1, "data": {"keyvalues": {"color": "red", "height": "300"} },"errors": [] },
