@@ -12,5 +12,26 @@
   "pluginsconfs": [
     { "id": 1, "data": {"keyvalues": {"color": "red", "height": "300"} },"errors": [] },
     { "id": 2, "data": {},"errors": [{"message": "A human-readable error message"}] }
-  ]
+  ],
+  "workDay": {
+"Report_Entry": [{
+   "LDAP": "paul.forster",
+   "Employee_ID": "IND0000001",
+   "First_Name": "Paul",
+   "Last_Name": "Forster",
+},
+{
+   "Email_-_Work": "chris@indeed.com",
+   "LDAP": "chris",
+   "Employee_ID": "IND0000003",
+   "First_Name": "Christopher",
+   "Last_Name": "Lamprecht",
+   "Worker_s_Manager": [
+      {"ID1": "something; IND0000001"},
+      {
+         "Manager_LDAP": "ahudson",
+         "Manager_Email": "ahudson@indeed.com"
+      }
+   ]
+}]}
 }
